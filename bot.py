@@ -24,3 +24,5 @@ schedule.every().day.at("09:00").do(send_motivation)
 while True:
     schedule.run_pending()
     time.sleep(60)
+    python-telegram-bot==13.15
+schedule==1.2.0
